@@ -332,5 +332,6 @@ textarea { resize: vertical; }
   .gallery-grid img { height: 220px; }
   .field-row { grid-template-columns: 1fr; }
   .brand-text { font-size: 1.05rem; }
-  .header-inner .btn-small { display: none; } /* hero'da "Call to Order" var, header butonu mobilde taşıyordu */
+  .header-inner .btn-small { margin-left: auto; } /* mobilde sadece "Call" kalır, numara gizlenir */
+  .header-inner .btn-small .call-num { display: none; }
 }
